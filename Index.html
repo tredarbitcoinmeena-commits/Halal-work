@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman Memon - Stock Market Learning & Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 15px;
+        }
+
+        .container {
+            max-width: 420px;
+            width: 100%;
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+            padding: 24px 20px;
+            text-align: center;
+        }
+
+        .online-badge {
+            display: inline-flex;
+            align-items: center;
+            background-color: #e6f4ea;
+            color: #137333;
+            font-size: 13px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        .online-dot {
+            width: 8px;
+            height: 8px;
+            background-color: #1e8e3e;
+            border-radius: 50%;
+            margin-right: 6px;
+        }
+
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 12px auto;
+            border: 3px solid #0088cc;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+        }
+
+        .subtitle {
+            font-size: 14px;
+            color: #0088cc;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .rating {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .stars {
+            color: #ffb400;
+        }
+
+        .btn-telegram {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: #0088cc;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 14px 0;
+            border-radius: 10px;
+            margin: 15px 0;
+            box-shadow: 0 4px 12px rgba(0, 136, 204, 0.3);
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-telegram:hover {
+            background-color: #006699;
+        }
+
+        .stats-grid {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+            gap: 8px;
+        }
+
+        .stat-card {
+            flex: 1;
+            background-color: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 10px;
+            padding: 12px 4px;
+        }
+
+        .stat-number {
+            font-size: 17px;
+            font-weight: 700;
+            color: #0088cc;
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: #6c757d;
+            margin-top: 4px;
+        }
+
+        .info-text {
+            font-size: 15px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin: 15px 0 6px 0;
+            line-height: 1.4;
+        }
+
+        .sub-info {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .urgency-box {
+            background-color: #fff3cd;
+            color: #856404;
+            padding: 10px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        .disclaimer {
+            font-size: 10px;
+            color: #777;
+            margin-top: 25px;
+            line-height: 1.4;
+            text-align: justify;
+            border-top: 1px solid #eee;
+            padding-top: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Live Status -->
+    <div class="online-badge">
+        <span class="online-dot"></span> 5,947 traders online now
+    </div>
+
+    <!-- Profile Image -->
+    <img src="https://via.placeholder.com/100/0088cc/ffffff?text=SM" alt="Salman Memon" class="profile-img">
+
+    <!-- Profile Info -->
+    <h1>SALMAN MEMON</h1>
+    <div class="subtitle">India's Stock Market Educational Channel</div>
+    
+    <div class="rating">
+        <span class="stars">★★★★★</span> 4.9/5 (2,440 reviews)
+    </div>
+
+    <!-- Button 1 -->
+    <a href="https://t.me/+gM70YcQjR7xkODI1" target="_blank" rel="noopener noreferrer" class="btn-telegram">
+        Join Free Telegram Channel →
+    </a>
+
+    <!-- Stats Grid -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Members</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">5+ Yrs</div>
+            <div class="stat-label">Experience</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number">Daily</div>
+            <div class="stat-label">Analysis</div>
+        </div>
+    </div>
+
+    <!-- Info Section -->
+    <div class="info-text">
+        Get FREE daily analysis for NIFTY, BANKNIFTY & SENSEX
+    </div>
+    <div class="sub-info">
+        Join thousands of traders getting free premium market analysis daily
+    </div>
+
+    <div class="urgency-box">
+        🔥 7,589 people joined today — Limited FREE access!
+    </div>
+
+    <!-- Button 2 -->
+    <a href="https://t.me/+gM70YcQjR7xkODI1" target="_blank" rel="noopener noreferrer" class="btn-telegram">
+        Join Free Telegram Channel →
+    </a>
+
+    <!-- Meta Compliance Disclaimer -->
+    <div class="disclaimer">
+        <strong>Disclaimer:</strong> This channel is for educational purposes only. We are not SEBI registered financial advisors. Stock market trading involves financial risk. Read all scheme-related documents carefully before investing or making trading decisions.
+    </div>
+</div>
+
+</body>
+</html>
